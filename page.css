@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #383857;
     color: #333;
 }
 
@@ -11,7 +11,20 @@ body {
     background-color: #1e1e2f;
     color: white;
     padding: 20px;
-    text-align: center;
+
+}
+.Header-left {
+    grid-column: 2/3;
+	display: grid;
+	grid-template-columns: 1.6fr 1fr;
+
+}
+.Header-right{
+    grid-column: 2/3;
+	display: flex;
+	justify-content: right;
+    grid-template-columns: 1.6fr 1fr;
+
 }
 
 .Header h1 {
@@ -74,3 +87,15 @@ body {
     line-height: 1.6;
 }
 
+/* Responsive Design */
+@media (max-width: 600px) {
+    .Header a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .Profile, .About {
+        margin: 15px;
+        padding: 15px;
+    }
+}
