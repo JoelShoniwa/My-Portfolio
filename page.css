@@ -30,3 +30,27 @@ body {
     color: #00bcd4;
 }
 
+/* Profile Section */
+.Profile {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.Profile h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.Profile p {
+    margin: 8px 0;
+    font-size: 1em;
+}
+
+.Profile img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
